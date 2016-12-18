@@ -7,6 +7,6 @@ public class Main {
 
     public static void main (String[] args)
     {
-       System.out.println("HELLO WORD !") ;
+       System.out.format("HELLO %s !", args[0]) ;
     }
 }
